@@ -11,7 +11,8 @@ import {
   Text,
   View
 } from 'react-native';
-import MainAppList from './src/MainAppList'
+import MainAppList from './src/MainAppList';
+import TabsComponent from './src/tabsComponent';
 
 export default class LoadingImages extends Component {
   render() {
@@ -51,4 +52,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => MainAppList);
+AppRegistry.registerComponent('LoadingImages', () => TabsComponent);

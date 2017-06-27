@@ -8,14 +8,12 @@ class MainApp2 extends Component {
   liked: false,
   };
   _onPressBtn = () => {
-    // We will define the content on step 6
     this.setState({
     liked: !this.state.liked,
     });
   }
   render() {
     const likedStyle = this.state.liked ? styles.icon :styles.liked;
-  // We will define the content on step 4
     return (
       <View style={styles.container}>
         <TouchableHighlight style={styles.btn} underlayColor="#fefefe" >
