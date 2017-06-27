@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import MainAppList from './src/MainAppList';
 import TabsComponent from './src/tabsComponent';
+import Jokes from './src/jokes';
 
 export default class LoadingImages extends Component {
   render() {
@@ -52,4 +53,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => TabsComponent);
+AppRegistry.registerComponent('LoadingImages', () => Jokes);
