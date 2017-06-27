@@ -33,14 +33,14 @@ class TabsComponent extends Component{
   }
   render() {
     return(
-      <View>
+
       <TabBarIOS tintColor = "#42b49a">
         {this.renderTab({title: 'Home', id: 'home', icon: homeIcon})}
         {this.renderTab({title: 'Favorites', id: 'favorites', icon: favIcon})}
         {this.renderTab({title: 'Blog', id: 'blog', icon: blogIcon})}
         {this.renderTab({title: 'Profile', id: 'profile', icon: profileIcon})}
       </ TabBarIOS>
-      </View>
+
     );
   }
 }
@@ -48,7 +48,8 @@ class TabsComponent extends Component{
 
 const styles = StyleSheet.create({
 container: {
-alignItems: 'center',
+  flex:1,
+  alignItems: 'center',
 },
 title: {
 fontSize: 20,
@@ -56,8 +57,10 @@ marginTop: 20,
 marginBottom: 30,
 },
 icon: {
-padding: 70,
-width: 70,
+flexDirection: 'row',
+marginBottom: 30,
+marginTop: 20,
+width: 30,
 height: 30,
 tintColor: '#42b49a'
 },
