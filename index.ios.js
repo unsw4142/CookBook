@@ -15,6 +15,7 @@ import MainAppList from './src/MainAppList';
 import TabsComponent from './src/tabsComponent';
 import Jokes from './src/jokes';
 import MainJoke from './srcJokes/MainJoke';
+import MainUniversalApp from './src2/MainUniversalApp';
 
 export default class LoadingImages extends Component {
   render() {
@@ -54,4 +55,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => MainJoke);
+AppRegistry.registerComponent('LoadingImages', () => MainUniversalApp);
