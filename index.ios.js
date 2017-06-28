@@ -14,6 +14,7 @@ import {
 import MainAppList from './src/MainAppList';
 import TabsComponent from './src/tabsComponent';
 import Jokes from './src/jokes';
+import MainreusableButton from './src2/MainreusableButton';
 
 export default class LoadingImages extends Component {
   render() {
@@ -53,4 +54,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => Jokes);
+AppRegistry.registerComponent('LoadingImages', () => MainreusableButton);
