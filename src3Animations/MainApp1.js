@@ -27,12 +27,14 @@ export default class MainApp extends Component {
     // Create a loop, created the animated Value
     this.animatedValue.setValue(width);
     Animated.timing(
-      this.animatedValue,{
+      this.animatedValue,
+      {
         toValue: -imageWidth,
-        duration: 6000,
+        duration: 2000,
         easing: Easing.linear,
       }
-    ).start(() => this.startAnimation());
+    ).start(() => this.componentDidMount());
+    // When finished, call the function itself
   }
   render() {
     return(
