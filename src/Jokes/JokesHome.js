@@ -25,7 +25,7 @@ class JokesHome extends Component {
       uri: '',
       jokes: [],
     },
-};
+  };
 // pass the detail of the object to the navigator
 onSelectJoke(joke){
   this.props.navigator.push({joke});

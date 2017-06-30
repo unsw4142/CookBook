@@ -17,6 +17,8 @@ import Jokes from './src/jokes';
 import MainJoke from './srcJokes/MainJoke';
 import MainUniversalApp from './src2/MainUniversalApp';
 import MainApp1 from './src3Animations/MainApp1';
+import MainApp2MultiAnm from './src3Animations/MainApp2MultiAnm';
+import MainRemoveList from './src3Animations/MainRemoveList';
 
 export default class LoadingImages extends Component {
   render() {
@@ -56,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => MainApp1);
+AppRegistry.registerComponent('LoadingImages', () => MainRemoveList);

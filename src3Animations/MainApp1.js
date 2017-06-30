@@ -35,6 +35,7 @@ export default class MainApp extends Component {
       }
     ).start(() => this.componentDidMount());
     // When finished, call the function itself
+    // call either component Did Mount or startAnimation
   }
   render() {
     return(
