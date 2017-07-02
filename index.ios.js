@@ -19,6 +19,7 @@ import MainUniversalApp from './src2/MainUniversalApp';
 import MainApp1 from './src3Animations/MainApp1';
 import MainApp2MultiAnm from './src3Animations/MainApp2MultiAnm';
 import MainRemoveList from './src3Animations/MainRemoveList';
+import MainStoreDataLocal from './src4/MainStoreDataLocal';
 
 export default class LoadingImages extends Component {
   render() {
@@ -58,4 +59,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => MainRemoveList);
+AppRegistry.registerComponent('LoadingImages', () => MainStoreDataLocal);
