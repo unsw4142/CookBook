@@ -20,7 +20,9 @@ import MainApp1 from './src3Animations/MainApp1';
 import MainApp2MultiAnm from './src3Animations/MainApp2MultiAnm';
 import MainRemoveList from './src3Animations/MainRemoveList';
 import MainStoreDataLocal from './src4/MainStoreDataLocal';
-
+import MainRemoteApi from './src4/MainRemoteApi';
+import MainSendData from './src4/MainSendData';
+import MainNewJokes from './srcJokes/MainNewJokes';
 export default class LoadingImages extends Component {
   render() {
     return (
@@ -59,4 +61,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LoadingImages', () => MainStoreDataLocal);
+AppRegistry.registerComponent('LoadingImages', () => MainNewJokes);
